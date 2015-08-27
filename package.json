@@ -1,0 +1,22 @@
+{
+  "name": "angular-http-auth-interceptor",
+  "description": "HTTP Auth Interceptor Module for AngularJS",
+  "version": "1.0.4",
+  "maintainers": [
+    {
+      "name": "",
+      "email": "jarnix@jarnix.com",
+      "web": ""
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/jarnix/angular-authInterceptorService"
+    }
+  ],
+  "dependencies": {
+    "angular": "~1.4.0"
+  },
+  "readme": "This module will intercept all the requests done in the app before your user logs in, broadcasts a message upon reception of a 401 response, after login is confirmed, will receive a broadcast and retry the previously pending requests, allows you to configure $http for the next requests in your app (for example, you can add a header, like a token for your API)"
+}
