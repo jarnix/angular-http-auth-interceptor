@@ -100,7 +100,6 @@
 													$rootScope.$broadcast('event:auth-loginRequired', rejection);
 													return deferred.promise;
 												case 403:
-													console.log('403 fuck');
 													$rootScope.$broadcast('event:auth-forbidden', rejection);
 													break;
 												}
